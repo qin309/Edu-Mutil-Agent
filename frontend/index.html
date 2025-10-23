@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EduAgent - Multimodal Educational Assistant</title>
+    <meta name="description" content="AI-powered multimodal educational assistant for students. Upload assignments, get instant analysis, and track your learning progress." />
+    <style>
+      body {
+        margin: 0;
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+        background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+        color: #e2e8f0;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .loading-container {
+        text-align: center;
+      }
+
+      .loading-spinner {
+        width: 50px;
+        height: 50px;
+        border: 3px solid rgba(255, 255, 255, 0.1);
+        border-top: 3px solid #10B981;
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+        margin: 0 auto 20px;
+      }
+
+      .loading-text {
+        font-size: 18px;
+        color: #94a3b8;
+      }
+
+      @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app">
+      <div class="loading-container">
+        <div class="loading-spinner"></div>
+        <div class="loading-text">Loading EduAgent...</div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
