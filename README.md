@@ -105,8 +105,8 @@ EduAgent是一个基于AI的多模态教育助手平台,集成了作业智能批
 
 ```bash
 # 克隆项目
-git clone <repository-url>
-cd EduAgent
+git clone https://github.com/qin309/Edu-Mutil-Agent.git
+cd Edu-Mutil-Agent
 
 # 启动后端(终端1)
 cd backend
@@ -737,9 +737,8 @@ BACKEND_CORS_ORIGINS=https://yourdomain.com,https://www.yourdomain.com
 
 ## 📞 联系方式
 
-- **问题反馈**: [GitHub Issues](https://github.com/your-repo/issues)
-- **讨论交流**: [GitHub Discussions](https://github.com/your-repo/discussions)
-- **Email**: your-email@example.com
+- **GitHub**: [https://github.com/qin309/Edu-Mutil-Agent](https://github.com/qin309/Edu-Mutil-Agent)
+- **问题反馈**: [GitHub Issues](https://github.com/qin309/Edu-Mutil-Agent/issues)
 
 ---
 
